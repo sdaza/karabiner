@@ -47,10 +47,11 @@ const rules: KarabinerRules[] = [
     x: open(`${RAYCAST_PREFIX}/clipboard-history/clipboard-history`),
     c: open(`${RAYCAST_PREFIX}/screenshots/search-screenshots`),
     d: {
-      o: open("https://twitter.com"),
+      o: open("https://outlook.office.com/mail/inbox"),
       p: open("https://teladocpa-my.sharepoint.com/personal/sebastian_daza_teladochealth_com/"),
       k: open("https://adb-4022166418081681.1.azuredatabricks.net/"),
-      m: open("https://mail.google.com")
+      m: open("https://mail.google.com"),
+      j: open("https://twitter.com/home")
     },
     e: {
       l: app("Arc"),
@@ -64,7 +65,10 @@ const rules: KarabinerRules[] = [
       h: open(`${RAYCAST_PREFIX}/raycast-ai/ai-chat`),
       n: open(`raycast://extensions/rasmusbe/connect-to-vpn/index`),
       y: open(`raycast://script-commands/start-my-fav-db-cluster`),
-      u: open(`raycast://script-commands/terminate-my-db-clusters`)
+      u: open(`raycast://script-commands/terminate-my-db-clusters`),
+      i: open(`raycast://ai-commands/improve-writting-en`),
+      j: open(`raycast://ai-commands/improve-writting-es`), 
+      b: open(`raycast://ai-commands/improve-my-code`)
     },
     w: {
       left_arrow: window(`${RAYCAST_PREFIX}/window-management/left-half`),

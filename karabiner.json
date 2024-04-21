@@ -203,10 +203,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://twitter.com"
+                    "shell_command": "open https://outlook.office.com/mail/inbox"
                   }
                 ],
-                "description": "Open https://twitter.com",
+                "description": "Open https://outlook.office.com/mail/inbox",
                 "type": "basic",
                 "from": {
                   "key_code": "o",
@@ -282,6 +282,30 @@
                 "type": "basic",
                 "from": {
                   "key_code": "m",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_d",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open https://twitter.com/home"
+                  }
+                ],
+                "description": "Open https://twitter.com/home",
+                "type": "basic",
+                "from": {
+                  "key_code": "j",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -662,6 +686,78 @@
                 "type": "basic",
                 "from": {
                   "key_code": "u",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_s",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open raycast://ai-commands/improve-writting-en"
+                  }
+                ],
+                "description": "Open raycast://ai-commands/improve-writting-en",
+                "type": "basic",
+                "from": {
+                  "key_code": "i",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_s",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open raycast://ai-commands/improve-writting-es"
+                  }
+                ],
+                "description": "Open raycast://ai-commands/improve-writting-es",
+                "type": "basic",
+                "from": {
+                  "key_code": "j",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_s",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open raycast://ai-commands/improve-my-code"
+                  }
+                ],
+                "description": "Open raycast://ai-commands/improve-my-code",
+                "type": "basic",
+                "from": {
+                  "key_code": "b",
                   "modifiers": {
                     "optional": [
                       "any"
