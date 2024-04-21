@@ -61,7 +61,10 @@ const rules: KarabinerRules[] = [
     s: {
       k: open(`${RAYCAST_PREFIX}/system/open-camera`),
       p: open(`${RAYCAST_PREFIX}/raycast/confetti`),
-      h: open(`${RAYCAST_PREFIX}/raycast-ai/ai-chat`)
+      h: open(`${RAYCAST_PREFIX}/raycast-ai/ai-chat`),
+      n: open(`raycast://extensions/rasmusbe/connect-to-vpn/index`),
+      y: open(`raycast://script-commands/start-my-fav-db-cluster`),
+      u: open(`raycast://script-commands/terminate-my-db-clusters`)
     },
     w: {
       left_arrow: window(`${RAYCAST_PREFIX}/window-management/left-half`),
