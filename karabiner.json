@@ -299,10 +299,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open https://twitter.com/home"
+                    "shell_command": "open https://jira.teladoc.net/secure/RapidBoard.jspa?rapidView=1924"
                   }
                 ],
-                "description": "Open https://twitter.com/home",
+                "description": "Open https://jira.teladoc.net/secure/RapidBoard.jspa?rapidView=1924",
                 "type": "basic",
                 "from": {
                   "key_code": "j",
@@ -399,7 +399,7 @@
                 "description": "Open -a 'Arc.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "l",
+                  "key_code": "g",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -423,7 +423,7 @@
                 "description": "Open -a 'Visual Studio Code - Insiders.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "p",
+                  "key_code": "v",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -447,7 +447,7 @@
                 "description": "Open -a 'Slack.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "s",
+                  "key_code": "f",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -471,7 +471,7 @@
                 "description": "Open -a 'Microsoft Teams (work or school).app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "o",
+                  "key_code": "t",
                   "modifiers": {
                     "optional": [
                       "any"

@@ -51,13 +51,16 @@ const rules: KarabinerRules[] = [
       p: open("https://teladocpa-my.sharepoint.com/personal/sebastian_daza_teladochealth_com/"),
       k: open("https://adb-4022166418081681.1.azuredatabricks.net/"),
       m: open("https://mail.google.com"),
-      j: open("https://twitter.com/home")
+      j: open("https://jira.teladoc.net/secure/RapidBoard.jspa?rapidView=1924")
+
+
+
     },
     e: {
-      l: app("Arc"),
-      p: app("Visual Studio Code - Insiders"),
-      s: app("Slack"),
-      o: app("Microsoft Teams (work or school)"),  
+      g: app("Arc"),
+      v: app("Visual Studio Code - Insiders"),
+      f: app("Slack"),
+      t: app("Microsoft Teams (work or school)")
     },
     s: {
       k: open(`${RAYCAST_PREFIX}/system/open-camera`),
