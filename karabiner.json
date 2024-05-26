@@ -257,7 +257,7 @@
                 "description": "Open https://adb-4022166418081681.1.azuredatabricks.net/",
                 "type": "basic",
                 "from": {
-                  "key_code": "l",
+                  "key_code": "k",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -305,7 +305,7 @@
                 "description": "Open https://keep.google.com/u/0/#home",
                 "type": "basic",
                 "from": {
-                  "key_code": "k",
+                  "key_code": "l",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -679,13 +679,37 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/rasmusbe/connect-to-vpn/index"
+                    "shell_command": "open raycast://script-commands/connect-azure-vpn"
                   }
                 ],
-                "description": "Open raycast://extensions/rasmusbe/connect-to-vpn/index",
+                "description": "Open raycast://script-commands/connect-azure-vpn",
                 "type": "basic",
                 "from": {
-                  "key_code": "m",
+                  "key_code": "d",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_s",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open raycast://script-commands/disconnect-azure-vpn"
+                  }
+                ],
+                "description": "Open raycast://script-commands/disconnect-azure-vpn",
+                "type": "basic",
+                "from": {
+                  "key_code": "f",
                   "modifiers": {
                     "optional": [
                       "any"

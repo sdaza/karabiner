@@ -49,9 +49,9 @@ const rules: KarabinerRules[] = [
     d: {
       o: open("https://outlook.office.com/mail/inbox"),
       p: open("https://teladocpa-my.sharepoint.com/personal/sebastian_daza_teladochealth_com/"),
-      l: open("https://adb-4022166418081681.1.azuredatabricks.net/"),
+      k: open("https://adb-4022166418081681.1.azuredatabricks.net/"),
       m: open("https://mail.google.com"),
-      k: open("https://keep.google.com/u/0/#home")
+      l: open("https://keep.google.com/u/0/#home")
     },
     e: {
       g: app("Arc"),
@@ -65,7 +65,8 @@ const rules: KarabinerRules[] = [
       p: open(`${RAYCAST_PREFIX}/raycast/confetti`),
       h: open(`${RAYCAST_PREFIX}/raycast-ai/ai-chat`),
       n: open(`raycast://extensions/raycast/floating-notes/toggle-floating-notes-window`),
-      m: open(`raycast://extensions/rasmusbe/connect-to-vpn/index`),
+      d: open(`raycast://script-commands/connect-azure-vpn`),
+      f: open(`raycast://script-commands/disconnect-azure-vpn`),
       y: open(`raycast://script-commands/start-my-fav-db-cluster`),
       u: open(`raycast://script-commands/terminate-my-db-clusters`),
       i: open(`raycast://ai-commands/improve-writting-en`),
