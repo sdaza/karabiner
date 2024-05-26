@@ -58,7 +58,8 @@ const rules: KarabinerRules[] = [
       v: app("Visual Studio Code - Insiders"),
       r: app("Slack"),        
       f: app("Finder"),
-      t: app("Microsoft Teams (work or school)")
+      t: app("Microsoft Teams (work or school)"),
+      k: app("FortiClient")
     },
     s: {
       k: open(`${RAYCAST_PREFIX}/system/open-camera`),
