@@ -58,7 +58,7 @@ const rules: KarabinerRules[] = [
       v: app("Visual Studio Code - Insiders"),
       r: app("Slack"),        
       f: app("Finder"),
-      t: app("Microsoft Teams (work or school)"),
+      t: app("Microsoft Teams"),
       k: app("FortiClient")
     },
     s: {

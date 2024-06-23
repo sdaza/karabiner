@@ -489,13 +489,37 @@
               {
                 "to": [
                   {
-                    "shell_command": "open -a 'Microsoft Teams (work or school).app'"
+                    "shell_command": "open -a 'Microsoft Teams.app'"
                   }
                 ],
-                "description": "Open -a 'Microsoft Teams (work or school).app'",
+                "description": "Open -a 'Microsoft Teams.app'",
                 "type": "basic",
                 "from": {
                   "key_code": "t",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_e",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
+                    "shell_command": "open -a 'FortiClient.app'"
+                  }
+                ],
+                "description": "Open -a 'FortiClient.app'",
+                "type": "basic",
+                "from": {
+                  "key_code": "k",
                   "modifiers": {
                     "optional": [
                       "any"
