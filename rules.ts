@@ -59,21 +59,23 @@ const rules: KarabinerRules[] = [
       r: app("Terminal"),        
       f: app("Finder"),
       t: app("Microsoft Teams"),
-      k: app("FortiClient")
-
+      k: app("FortiClient"),
+      b: app("Spotify")
     },
     s: {
       k: open(`${RAYCAST_PREFIX}/system/open-camera`),
       p: open(`${RAYCAST_PREFIX}/raycast/confetti`),
       h: open(`${RAYCAST_PREFIX}/raycast-ai/ai-chat`),
+      g: open(`${RAYCAST_PREFIX}/navigation/search-menu-items`),
       n: open(`raycast://extensions/raycast/floating-notes/toggle-floating-notes-window`),
       d: open(`raycast://script-commands/connect-azure-vpn`),
       f: open(`raycast://script-commands/disconnect-azure-vpn`),
       y: open(`raycast://script-commands/start-my-fav-db-cluster`),
       u: open(`raycast://script-commands/terminate-my-db-clusters`),
       i: open(`raycast://ai-commands/improve-writting-en`),
-      j: open(`raycast://ai-commands/improve-writting-es`), 
-      b: open(`raycast://ai-commands/improve-my-code`)
+      j: open(`raycast://ai-commands/improve-writting-es`),
+      b: open(`raycast://ai-commands/improve-my-code`),
+      l: open(`raycast://extensions/marky/world-clock/index`)
     },
     w: {
       left_arrow: window(`${RAYCAST_PREFIX}/window-management/left-half`),
