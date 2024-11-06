@@ -67,7 +67,7 @@ const rules: KarabinerRules[] = [
       p: open(`${RAYCAST_PREFIX}/raycast/confetti`),
       h: open(`${RAYCAST_PREFIX}/raycast-ai/ai-chat`),
       g: open(`${RAYCAST_PREFIX}/navigation/search-menu-items`),
-      n: open(`raycast://extensions/raycast/floating-notes/toggle-floating-notes-window`),
+      n: open(`raycast://extensions/raycast/raycast-notes/search-notes`),
       d: open(`raycast://script-commands/connect-azure-vpn`),
       f: open(`raycast://script-commands/disconnect-azure-vpn`),
       y: open(`raycast://script-commands/start-my-fav-db-cluster`),
