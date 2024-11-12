@@ -727,10 +727,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/raycast/raycast-notes/search-notes"
+                    "shell_command": "open raycast://extensions/raycast/floating-notes/toggle-floating-notes-window"
                   }
                 ],
-                "description": "Open raycast://extensions/raycast/raycast-notes/search-notes",
+                "description": "Open raycast://extensions/raycast/floating-notes/toggle-floating-notes-window",
                 "type": "basic",
                 "from": {
                   "key_code": "n",
@@ -1139,7 +1139,7 @@
                 "description": "Window: raycast://extensions/raycast/window-management/next-display",
                 "type": "basic",
                 "from": {
-                  "key_code": "right_option",
+                  "key_code": "right_shift",
                   "modifiers": {
                     "optional": [
                       "any"
