@@ -71,7 +71,7 @@ const rules: KarabinerRules[] = [
       d: open(`raycast://script-commands/connect-azure-vpn`),
       f: open(`raycast://script-commands/disconnect-azure-vpn`),
       y: open(`raycast://script-commands/start-my-fav-db-cluster`),
-      u: open(`raycast://script-commands/terminate-my-db-clusters`),
+      u: open(`raycast://script-commands/terminate-my-db-cluststters`),
       i: open(`raycast://ai-commands/improve-writting-en`),
       j: open(`raycast://ai-commands/improve-writting-es`),
       b: open(`raycast://ai-commands/improve-my-code`),

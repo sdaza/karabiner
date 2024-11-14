@@ -823,10 +823,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://script-commands/terminate-my-db-clusters"
+                    "shell_command": "open raycast://script-commands/terminate-my-db-cluststters"
                   }
                 ],
-                "description": "Open raycast://script-commands/terminate-my-db-clusters",
+                "description": "Open raycast://script-commands/terminate-my-db-cluststters",
                 "type": "basic",
                 "from": {
                   "key_code": "u",
