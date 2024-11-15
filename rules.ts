@@ -67,7 +67,8 @@ const rules: KarabinerRules[] = [
       p: open(`${RAYCAST_PREFIX}/raycast/confetti`),
       h: open(`${RAYCAST_PREFIX}/raycast-ai/ai-chat`),
       g: open(`${RAYCAST_PREFIX}/navigation/search-menu-items`),
-      n: open(`raycast://extensions/raycast/raycast-notes/search-notes`),
+      n: open(`${RAYCAST_PREFIX}/raycast-notes/raycast-notes?context=%7B%22id%22:%225CB80654-83DE-4E7F-B862-E509AC629380%22%7D`),
+      m: open(`${RAYCAST_PREFIX}/raycast-notes/raycast-notes?context=%7B%22id%22:%224F6098A9-EB88-4004-A334-2327F8C1962F%22%7D`),
       d: open(`raycast://script-commands/connect-azure-vpn`),
       f: open(`raycast://script-commands/disconnect-azure-vpn`),
       y: open(`raycast://script-commands/start-my-fav-db-cluster`),
@@ -77,6 +78,7 @@ const rules: KarabinerRules[] = [
       b: open(`raycast://ai-commands/improve-my-code`),
       l: open(`raycast://extensions/marky/world-clock/index`)
     },
+
     w: {
       left_arrow: window(`${RAYCAST_PREFIX}/window-management/left-half`),
       right_arrow: window(`${RAYCAST_PREFIX}/window-management/right-half`),
