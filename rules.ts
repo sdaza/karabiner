@@ -54,12 +54,11 @@ const rules: KarabinerRules[] = [
       l: open("https://keep.google.com/u/0/#home")
     },
     e: {
-      g: app("Arc"),
+      g: app("Zen"),
       v: app("Visual Studio Code - Insiders"),
       r: app("Terminal"),        
       f: app("Finder"),
-      t: app("Microsoft Teams"),
-      k: app("FortiClient"),
+      t: app("Slack"),
       b: app("Spotify")
     },
     s: {
@@ -69,17 +68,14 @@ const rules: KarabinerRules[] = [
       g: open(`${RAYCAST_PREFIX}/navigation/search-menu-items`),
       n: open(`${RAYCAST_PREFIX}/raycast-notes/raycast-notes?context=%7B%22id%22:%224F6098A9-EB88-4004-A334-2327F8C1962F%22%7D`),
       m: open(`${RAYCAST_PREFIX}/raycast-notes/raycast-notes?context=%7B%22id%22:%225CB80654-83DE-4E7F-B862-E509AC629380%22%7D`),
-      d: open(`raycast://script-commands/connect-azure-vpn`),
-      f: open(`raycast://script-commands/disconnect-azure-vpn`),
-      y: open(`raycast://script-commands/start-my-fav-db-cluster`),
-      u: open(`raycast://script-commands/terminate-my-db-cluststters`),
+      d: open(`raycast://script-commands/connect-dp-vpn`),
+      f: open(`raycast://script-commands/disconnect-dp-vpn`),
       i: open(`raycast://ai-commands/improve-writting-en`),
       j: open(`raycast://ai-commands/improve-writting-es`),
       b: open(`raycast://ai-commands/improve-my-code`),
       l: open(`raycast://extensions/marky/world-clock/index`),
       r: open(`${RAYCAST_PREFIX}/raycast/search-quicklinks`)
     },
-
 
     w: {
       left_arrow: window(`${RAYCAST_PREFIX}/window-management/left-half`),
