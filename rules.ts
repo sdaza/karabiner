@@ -74,7 +74,8 @@ const rules: KarabinerRules[] = [
       j: open(`raycast://ai-commands/improve-writting-es`),
       b: open(`raycast://ai-commands/improve-my-code`),
       l: open(`raycast://extensions/marky/world-clock/index`),
-      r: open(`${RAYCAST_PREFIX}/raycast/search-quicklinks`)
+      r: open(`${RAYCAST_PREFIX}/raycast/search-quicklinks`),
+      o: open(`raycast://extensions/Keyruu/zen-browser/search-bookmarks`)
     },
 
     w: {
