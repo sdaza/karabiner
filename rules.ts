@@ -54,11 +54,11 @@ const rules: KarabinerRules[] = [
       l: open("https://keep.google.com/u/0/#home")
     },
     e: {
-      g: app("Zen"),
+      r: app("Zen"),
       v: app("Visual Studio Code - Insiders"),
-      r: app("Terminal"),        
+      t: app("Terminal"),        
       f: app("Finder"),
-      t: app("Slack"),
+      g: app("Slack"),
       b: app("Spotify")
     },
     s: {

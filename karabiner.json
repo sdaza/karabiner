@@ -399,7 +399,7 @@
                 "description": "Open -a 'Zen.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "g",
+                  "key_code": "r",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -447,7 +447,7 @@
                 "description": "Open -a 'Terminal.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "r",
+                  "key_code": "t",
                   "modifiers": {
                     "optional": [
                       "any"
@@ -495,7 +495,7 @@
                 "description": "Open -a 'Slack.app'",
                 "type": "basic",
                 "from": {
-                  "key_code": "t",
+                  "key_code": "g",
                   "modifiers": {
                     "optional": [
                       "any"
