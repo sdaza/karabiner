@@ -56,7 +56,8 @@ const rules: KarabinerRules[] = [
     e: {
       r: app("Zen"),
       v: app("Visual Studio Code - Insiders"),
-      t: app("Terminal"),        
+      t: app("Terminal"),
+      d: open("raycast://extensions/MarkusLanger/vscode-project-manager/search-project-manager-projects"),
       f: app("Finder"),
       g: app("Slack"),
       b: app("Spotify")
@@ -67,7 +68,7 @@ const rules: KarabinerRules[] = [
       h: open(`${RAYCAST_PREFIX}/raycast-ai/ai-chat`),
       g: open(`${RAYCAST_PREFIX}/navigation/search-menu-items`),
       n: open(`${RAYCAST_PREFIX}/raycast-notes/raycast-notes?context=%7B%22id%22:%224F6098A9-EB88-4004-A334-2327F8C1962F%22%7D`),
-      m: open(`${RAYCAST_PREFIX}/raycast-notes/raycast-notes?context=%7B%22id%22:%225CB80654-83DE-4E7F-B862-E509AC629380%22%7D`),
+      m: open(`${RAYCAST_PREFIX}/raycast-notes/raycast-notes?context=%7B%22id%22:%2251847A10-6517-4703-A917-8AB58700581D%22%7D`),
       d: open(`raycast://script-commands/connect-dp-vpn`),
       f: open(`raycast://script-commands/disconnect-dp-vpn`),
       i: open(`raycast://ai-commands/improve-writting-en`),

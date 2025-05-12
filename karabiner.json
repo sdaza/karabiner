@@ -465,6 +465,30 @@
               {
                 "to": [
                   {
+                    "shell_command": "open raycast://extensions/MarkusLanger/vscode-project-manager/search-project-manager-projects"
+                  }
+                ],
+                "description": "Open raycast://extensions/MarkusLanger/vscode-project-manager/search-project-manager-projects",
+                "type": "basic",
+                "from": {
+                  "key_code": "d",
+                  "modifiers": {
+                    "optional": [
+                      "any"
+                    ]
+                  }
+                },
+                "conditions": [
+                  {
+                    "type": "variable_if",
+                    "name": "hyper_sublayer_e",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "to": [
+                  {
                     "shell_command": "open -a 'Finder.app'"
                   }
                 ],
@@ -727,10 +751,10 @@
               {
                 "to": [
                   {
-                    "shell_command": "open raycast://extensions/raycast/raycast-notes/raycast-notes?context=%7B%22id%22:%225CB80654-83DE-4E7F-B862-E509AC629380%22%7D"
+                    "shell_command": "open raycast://extensions/raycast/raycast-notes/raycast-notes?context=%7B%22id%22:%2251847A10-6517-4703-A917-8AB58700581D%22%7D"
                   }
                 ],
-                "description": "Open raycast://extensions/raycast/raycast-notes/raycast-notes?context=%7B%22id%22:%225CB80654-83DE-4E7F-B862-E509AC629380%22%7D",
+                "description": "Open raycast://extensions/raycast/raycast-notes/raycast-notes?context=%7B%22id%22:%2251847A10-6517-4703-A917-8AB58700581D%22%7D",
                 "type": "basic",
                 "from": {
                   "key_code": "m",
