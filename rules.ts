@@ -47,17 +47,17 @@ const rules: KarabinerRules[] = [
     x: open(`${RAYCAST_PREFIX}/clipboard-history/clipboard-history`),
     c: open(`${RAYCAST_PREFIX}/screenshots/search-screenshots`),
     d: {
-      o: open("https://outlook.office.com/mail/inbox"),
-      p: open("https://teladocpa-my.sharepoint.com/personal/sebastian_daza_teladochealth_com/"),
-      k: open("https://adb-4022166418081681.1.azuredatabricks.net/"),
+    //   o: open("https://outlook.office.com/mail/inbox"),
+    //   p: open("https://teladocpa-my.sharepoint.com/personal/sebastian_daza_teladochealth_com/"),
+    //   k: open("https://adb-4022166418081681.1.azuredatabricks.net/"),
       m: open("https://mail.google.com"),
-      l: open("https://keep.google.com/u/0/#home")
+    //   l: open("https://keep.google.com/u/0/#home")
     },
     e: {
       r: app("Zen"),
       v: app("Visual Studio Code - Insiders"),
       t: app("Terminal"),
-      d: open("raycast://extensions/MarkusLanger/vscode-project-manager/search-project-manager-projects"),
+    //   d: open("raycast://extensions/MarkusLanger/vscode-project-manager/search-project-manager-projects"),
       f: app("Finder"),
       g: app("Slack"),
       b: app("Spotify")
@@ -72,11 +72,11 @@ const rules: KarabinerRules[] = [
       d: open(`raycast://script-commands/connect-dp-vpn`),
       f: open(`raycast://script-commands/disconnect-dp-vpn`),
       i: open(`raycast://ai-commands/improve-writting-en`),
-      j: open(`raycast://ai-commands/improve-writting-es`),
       b: open(`raycast://ai-commands/improve-my-code`),
       l: open(`raycast://extensions/marky/world-clock/index`),
       r: open(`${RAYCAST_PREFIX}/raycast/search-quicklinks`),
-      o: open(`raycast://extensions/Keyruu/zen-browser/search-bookmarks`)
+      o: open(`raycast://extensions/lardissone/raindrop-io/search`),
+      v: open(`raycast://extensions/Aayush9029/cleanshotx/capture-area-raycast-aichat`)
     },
 
     w: {
