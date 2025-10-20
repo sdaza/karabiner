@@ -84,7 +84,7 @@ const rules: KarabinerRules[] = [
       right_arrow: window(`${RAYCAST_PREFIX}/window-management/right-half`),
       up_arrow: window(`${RAYCAST_PREFIX}/window-management/top-half`),
       down_arrow: window(`${RAYCAST_PREFIX}/window-management/bottom-half`),
-      return_or_enter: window(`${RAYCAST_PREFIX}/window-wmanagement/maximize`),
+      return_or_enter: window(`${RAYCAST_PREFIX}/window-management/maximize`),
       right_option: window(`${RAYCAST_PREFIX}/window-management/next-display`),
     }
   }
