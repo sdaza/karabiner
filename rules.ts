@@ -71,7 +71,7 @@ const rules: KarabinerRules[] = [
       m: open(`${RAYCAST_PREFIX}/raycast-notes/raycast-notes?context=%7B%22id%22:%2251847A10-6517-4703-A917-8AB58700581D%22%7D`),
       d: open(`raycast://script-commands/connect-dp-vpn`),
       f: open(`raycast://script-commands/disconnect-dp-vpn`),
-      i: open(`raycast://ai-commands/improve-writting-en`),
+      i: open(`raycast://ai-commands/improve-tone`),
       b: open(`raycast://ai-commands/improve-my-code`),
       l: open(`raycast://extensions/marky/world-clock/index`),
       r: open(`${RAYCAST_PREFIX}/raycast/search-quicklinks`),
@@ -84,10 +84,10 @@ const rules: KarabinerRules[] = [
       right_arrow: window(`${RAYCAST_PREFIX}/window-management/right-half`),
       up_arrow: window(`${RAYCAST_PREFIX}/window-management/top-half`),
       down_arrow: window(`${RAYCAST_PREFIX}/window-management/bottom-half`),
-      return_or_enter: window(`${RAYCAST_PREFIX}/window-management/maximize`),
+      return_or_enter: window(`${RAYCAST_PREFIX}/window-wmanagement/maximize`),
       right_option: window(`${RAYCAST_PREFIX}/window-management/next-display`),
     }
-  }  
+  }
 )];
 
 fs.writeFileSync(
