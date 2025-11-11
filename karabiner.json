@@ -541,12 +541,20 @@
                                         "value": 1
                                     }
                                 ],
+<<<<<<< HEAD
                                 "description": "Open raycast://ai-commands/improve-tone",
+=======
+                                "description": "Open raycast://extensions/Aayush9029/cleanshotx/capture-area-raycast-aichat",
+>>>>>>> dd2b731 (minor updates)
                                 "from": {
                                     "key_code": "i",
                                     "modifiers": { "optional": ["any"] }
                                 },
+<<<<<<< HEAD
                                 "to": [{ "shell_command": "open raycast://ai-commands/improve-tone" }],
+=======
+                                "to": [{ "shell_command": "open raycast://extensions/Aayush9029/cleanshotx/capture-area-raycast-aichat" }],
+>>>>>>> dd2b731 (minor updates)
                                 "type": "basic"
                             },
                             {
@@ -557,12 +565,12 @@
                                         "value": 1
                                     }
                                 ],
-                                "description": "Open raycast://ai-commands/improve-my-code",
+                                "description": "Open raycast://ai-commands/optimize-my-sql-query",
                                 "from": {
                                     "key_code": "b",
                                     "modifiers": { "optional": ["any"] }
                                 },
-                                "to": [{ "shell_command": "open raycast://ai-commands/improve-my-code" }],
+                                "to": [{ "shell_command": "open raycast://ai-commands/optimize-my-sql-query" }],
                                 "type": "basic"
                             },
                             {
@@ -796,7 +804,7 @@
                 ]
             },
             "name": "Default",
-            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+            "virtual_hid_keyboard": { "keyboard_type_v2": "iso" }
         }
     ]
 }
