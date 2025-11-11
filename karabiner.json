@@ -541,20 +541,12 @@
                                         "value": 1
                                     }
                                 ],
-<<<<<<< HEAD
-                                "description": "Open raycast://ai-commands/improve-tone",
-=======
                                 "description": "Open raycast://extensions/Aayush9029/cleanshotx/capture-area-raycast-aichat",
->>>>>>> dd2b731 (minor updates)
                                 "from": {
                                     "key_code": "i",
                                     "modifiers": { "optional": ["any"] }
                                 },
-<<<<<<< HEAD
-                                "to": [{ "shell_command": "open raycast://ai-commands/improve-tone" }],
-=======
                                 "to": [{ "shell_command": "open raycast://extensions/Aayush9029/cleanshotx/capture-area-raycast-aichat" }],
->>>>>>> dd2b731 (minor updates)
                                 "type": "basic"
                             },
                             {
